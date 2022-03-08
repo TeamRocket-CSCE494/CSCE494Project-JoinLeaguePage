@@ -54,7 +54,7 @@ class JoinLeagueScreen extends StatelessWidget {
           backgroundColor: Colors.transparent,
           centerTitle: true,
           title: const Text('Join a League!')),
-      body: new Column(
+      body: new ListView(
         children: [
           Expanded(
             child: Column(
@@ -77,7 +77,7 @@ class JoinLeagueScreen extends StatelessWidget {
                       ),
                     ),
                     Padding(
-                      padding: EdgeInsets.only(top: 0, bottom: 60),
+                      padding: EdgeInsets.only(top: 0, bottom: 10),
                       child: Image.asset(
                         'assets/MoolahMasterLogo2.png',
                         height: 200,
